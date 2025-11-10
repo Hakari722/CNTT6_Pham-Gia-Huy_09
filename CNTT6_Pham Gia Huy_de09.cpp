@@ -88,7 +88,7 @@ int main() {
 				break;
 			}
 			case 6:{
-				 int pos;
+				int pos;
                 printf("Nhap vi tri muon xoa (0 -> %d): ", n - 1);
                 scanf("%d", &pos);
                 if (pos < 0 || pos >= n) {
@@ -102,7 +102,7 @@ int main() {
 			}
 			case 7:
 			case 8:{
-				 int x, found = 0;
+				int x, found = 0;
                 printf("Nhap gia tri can tim: ");
                 scanf("%d", &x);
                 for (int i = 0; i < n; i++) {
@@ -127,3 +127,4 @@ int main() {
 	printf("Chuong trinh ket thuc!\n");
 	return 0;
 }
+
